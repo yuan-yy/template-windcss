@@ -2,7 +2,7 @@
   "name": "vue-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "TAILWIND_MODE=watch NODE_ENV=development vite --mode development",
+    "dev": "set TAILWIND_MODE=watch && set NODE_ENV=development && vite --mode development",
     "build": "NODE_ENV=production vite build --mode production",
     "preview": "vite preview --port 2323",
     "lint": "eslint \"src/**/*.{ts,tsx,js,json,vue}\" --fix",
